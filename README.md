@@ -5,12 +5,12 @@ Script explanation
 
 Main script
 
-emissionDataProcessing.m: Driver script
-     - Input data setting (exhaust emissions and fuel)
-        Emission data (dry gas) : O2,CO2 in %, NO,CO,THC in ppm(THC: ppmC1)
-        Fuel data: H/C ratio, O/C ratio, lower heating value
-     - Calculate stoichimetric AFR ratio from fuel's H/C and O/C ratio
-     - Call other three script
+1. emissionDataProcessing.m: Driver script
+    - Input data setting (exhaust emissions and fuel)
+      Emission data (dry gas) : O2,CO2 in %, NO,CO,THC in ppm(THC: ppmC1)
+      Fuel data: H/C ratio, O/C ratio, lower heating value
+    - Calculate stoichimetric AFR ratio from fuel's H/C and O/C ratio
+    - Call other three script
      
 Subrfunctions (could be used independently)
 
